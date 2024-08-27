@@ -46,9 +46,14 @@ To use SubSniper, run the script with the following options:
 ./subsniper.py -w wordlist.txt example.com
 ```
 + With custom thread count and output file:
-`./subsniper.py -w wordlist.txt -t 50 -o results.txt example.com`
+
+```sh
+./subsniper.py -w wordlist.txt -t 50 -o results.txt example.com
+```
 + Verbose mode
-`./subsniper.py -w wordlist.txt -V example.com`
+```sh
+./subsniper.py -w wordlist.txt -V example.com
+```
 
 
 ### Disclaimer
