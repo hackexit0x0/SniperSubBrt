@@ -33,11 +33,13 @@ To use SubSniper, run the script with the following options:
 `domain: The target domain name.
 
 ### Options
-`-w  --wordlist` FILE: Wordlist file containing subdomains (required).
-`-t  --threads` NUM: Number of threads to use (default: 100).
-`-o  --output` FILE: File to save the discovered subdomains.
-`-V  --verbose` Enable verbose output to print subdomains as they are found.
-`-v --version` Display the version of the tool.
+```sh
+ -w  --wordlist  FILE: Wordlist file containing subdomains (required).
+ -t  --threads   NUM: Number of threads to use (default: 100).
+ -o  --output    FILE: File to save the discovered subdomains.
+ -V  --verbose   Enable verbose output to print subdomains as they are found.
+ -v --version    Display the version of the tool.
+```
 
 
 ### Example Usage
